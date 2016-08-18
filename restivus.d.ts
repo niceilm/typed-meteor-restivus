@@ -6,7 +6,7 @@ declare module "meteor/nimble:restivus" {
   interface Response {
     statusCode?: number,
     headers?: Object,
-    body: string
+    body?: string | Object
   }
 
   interface ActionFunc {
