@@ -45,7 +45,7 @@ declare module "meteor/nimble:restivus" {
 
   interface Options {
     apiPath?: string,
-    auth?: {token: string,user: Object},
+    auth?: {token?: string, user?: Object|Function},
     defaultHeaders?: Object,
     defaultOptionsEndpoint?: Endpoint,
     enableCors?: boolean,
