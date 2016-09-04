@@ -1,7 +1,6 @@
 {
   "name": "meteor-restivus",
   "main": "meteor-restivus.d.ts",
-  "global": true,
   "homepage": "https://github.com/kahmali/meteor-restivus",
   "version": "0.8.11",
   "dependencies": {},
