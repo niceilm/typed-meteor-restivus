@@ -1,5 +1,3 @@
-import { Mongo } from 'meteor/mongo';
-
 /**
  * @link https://github.com/kahmali/meteor-restivus/
  * @example
