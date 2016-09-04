@@ -1,7 +1,10 @@
-// Type definitions for meteor-restivus 0.8.11
-// Project: https://github.com/kahmali/meteor-restivus/
-// Definitions by: flynn <https://github.com/niceilm/>
+import { Mongo } from 'meteor/mongo';
 
+/**
+ * @link https://github.com/kahmali/meteor-restivus/
+ * @example
+ * import { Restivus } from 'meteor/nimble:restivus';
+ */
 declare module "meteor/nimble:restivus" {
   interface Response {
     statusCode?: number,
